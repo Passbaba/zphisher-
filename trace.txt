@@ -1,0 +1,79 @@
+[000:026] [2020-12-03 12:33:46 +0000.253419][2334]  SystemUtil Init done
+[000:029] [2020-12-03 12:33:46 +0000.255894][36de] Java_com_xiaomi_mediatranscode_MediaTranscode_ProbeTranscodeInfoJni time:58028765  enter.
+
+[000:029] [2020-12-03 12:33:46 +0000.256083][36de] ProbeTranscodeInfo time:58028765  enter.
+
+[000:029] [2020-12-03 12:33:46 +0000.256114][36de] ProbeMP4VideoInfo:input file:/storage/emulated/0/DCIM/Camera/4c0c4eaf6c3ea0820f6cd27ef62df4da.mp4
+[000:029] [2020-12-03 12:33:46 +0000.256139][36de] bool xplatform_util::MP4Reader::FindTracks(std::string): 
+[000:030] [2020-12-03 12:33:46 +0000.257508][36de] There are num of tracks:2
+[000:031] [2020-12-03 12:33:46 +0000.257619][36de] Audio track id:2
+[000:031] [2020-12-03 12:33:46 +0000.257642][36de] Streaming media [trackId:2,type:soun]
+[000:031] [2020-12-03 12:33:46 +0000.257669][36de] Audio Channels:2 totalSamples:412
+[000:031] [2020-12-03 12:33:46 +0000.257694][36de] The audioTrack media name:mp4a
+[000:031] [2020-12-03 12:33:46 +0000.257714][36de] audio Duration:421888
+[000:031] [2020-12-03 12:33:46 +0000.257742][36de] Video track id:1
+[000:031] [2020-12-03 12:33:46 +0000.257758][36de] Streaming media [trackId:1,type:vide]
+[000:031] [2020-12-03 12:33:46 +0000.257774][36de] Video totalSamples:412
+[000:031] [2020-12-03 12:33:46 +0000.257792][36de] The videoTrack media name:avc1
+[000:031] [2020-12-03 12:33:46 +0000.257810][36de] video Duration:9499788
+[000:032] [2020-12-03 12:33:46 +0000.259102][36de] Find current key frame:1 sampleId:31 timeStamp:999873
+[000:032] [2020-12-03 12:33:46 +0000.259189][36de] Find current key frame:2 sampleId:61 timeStamp:1999863
+[000:032] [2020-12-03 12:33:46 +0000.259210][36de] Find current key frame:3 sampleId:91 timeStamp:2999853
+[000:032] [2020-12-03 12:33:46 +0000.259228][36de] Find current key frame:4 sampleId:121 timeStamp:3999843
+[000:032] [2020-12-03 12:33:46 +0000.259245][36de] Find current key frame:5 sampleId:151 timeStamp:4999833
+[000:033] [2020-12-03 12:33:46 +0000.259917][36de] Video track id:0
+[000:035] [2020-12-03 12:33:46 +0000.262365][36de] Audio timescale:44100 video timescale:1000000 video size:720X1280 avg key frame Interval:999 video bit rate:1048944 audio bit rate:128048
+[000:035] [2020-12-03 12:33:46 +0000.262441][36de] MP4 video info: videoMediaName:avc1 audioMediaName: mp4a videoBitRate:1048944 audioBitRate: 128048 keyFrameInterval: 999 frameRate:30.1084 samplingRate_: 44100duration: 9 width:720 height:1280
+[000:035] [2020-12-03 12:33:46 +0000.262478][36de] void xplatform_util::MP4Reader::CloseFiles(): 
+[000:036] [2020-12-03 12:33:46 +0000.262721][36de] mp4v2 get the MP4 file video parameters, video media name:avc1 audio media name:mp4a frame rate:30.1084 samplingRate:44100 video bit rate:1048944 audio bit rate: 128048 width:720 height:1280 test_duration:9
+[000:036] [2020-12-03 12:33:46 +0000.263396][36de] H264Encode::GetMachineModel is POCO M2 Pro
+[000:036] [2020-12-03 12:33:46 +0000.263462][36de] ProbeTranscodeInfo machine_mode is:POCO M2 Pro
+[000:036] [2020-12-03 12:33:46 +0000.263481][36de] this machine POCO M2 Pro not found in our list, use default param!
+[000:037] [2020-12-03 12:33:46 +0000.263881][36de] H264Encode::GetMachineModel is POCO M2 Pro
+[000:037] [2020-12-03 12:33:46 +0000.263916][36de] ProbeTranscodeInfo machine_mode is:POCO M2 Pro
+[000:037] [2020-12-03 12:33:46 +0000.264437][36de] isAvcDecoderSupported width: 720 height: 1280
+[000:038] [2020-12-03 12:33:46 +0000.265175][36de] width: 720, height: 1280, frameRate: 30.108433
+[000:038] [2020-12-03 12:33:46 +0000.265294][36de] sdk version is: 29
+[000:070] [2020-12-03 12:33:46 +0000.297272][36de] codec name: audio/flac company:OMX.qti.audio.decoder.flac
+[000:070] [2020-12-03 12:33:46 +0000.297430][36de] codec name: video/avc company:OMX.qcom.video.decoder.avc
+[000:070] [2020-12-03 12:33:46 +0000.297473][36de] codec name: video/divx company:OMX.qti.video.decoder.divxsw
+[000:070] [2020-12-03 12:33:46 +0000.297504][36de] codec name: video/divx4 company:OMX.qti.video.decoder.divx4sw
+[000:070] [2020-12-03 12:33:46 +0000.297535][36de] codec name: video/3gpp company:OMX.qti.video.decoder.h263sw
+[000:071] [2020-12-03 12:33:46 +0000.297610][36de] codec name: video/hevc company:OMX.qcom.video.decoder.hevc
+[000:071] [2020-12-03 12:33:46 +0000.297670][36de] codec name: video/mpeg2 company:OMX.qcom.video.decoder.mpeg2
+[000:071] [2020-12-03 12:33:46 +0000.297703][36de] codec name: video/mp4v-es company:OMX.qti.video.decoder.mpeg4sw
+[000:071] [2020-12-03 12:33:46 +0000.297738][36de] codec name: video/x-vnd.on2.vp8 company:OMX.qcom.video.decoder.vp8
+[000:071] [2020-12-03 12:33:46 +0000.297790][36de] codec name: video/x-vnd.on2.vp9 company:OMX.qcom.video.decoder.vp9
+[000:071] [2020-12-03 12:33:46 +0000.297824][36de] codec name: audio/mp4a-latm company:OMX.google.aac.decoder
+[000:071] [2020-12-03 12:33:46 +0000.297885][36de] codec name: audio/3gpp company:OMX.google.amrnb.decoder
+[000:071] [2020-12-03 12:33:46 +0000.297922][36de] codec name: audio/amr-wb company:OMX.google.amrwb.decoder
+[000:071] [2020-12-03 12:33:46 +0000.297962][36de] codec name: audio/flac company:OMX.google.flac.decoder
+[000:071] [2020-12-03 12:33:46 +0000.297992][36de] codec name: audio/g711-alaw company:OMX.google.g711.alaw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298021][36de] codec name: audio/g711-mlaw company:OMX.google.g711.mlaw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298065][36de] codec name: audio/gsm company:OMX.google.gsm.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298097][36de] codec name: audio/mpeg company:OMX.google.mp3.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298128][36de] codec name: audio/raw company:OMX.google.raw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298172][36de] codec name: audio/vorbis company:OMX.google.vorbis.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298212][36de] codec name: audio/mp4a-latm company:c2.android.aac.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298255][36de] codec name: audio/3gpp company:c2.android.amrnb.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298286][36de] codec name: audio/amr-wb company:c2.android.amrwb.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298317][36de] codec name: audio/flac company:c2.android.flac.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298361][36de] codec name: audio/g711-alaw company:c2.android.g711.alaw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298396][36de] codec name: audio/g711-mlaw company:c2.android.g711.mlaw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298445][36de] codec name: audio/mpeg company:c2.android.mp3.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298479][36de] codec name: audio/opus company:c2.android.opus.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298506][36de] codec name: audio/opus company:OMX.google.opus.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298558][36de] codec name: audio/raw company:c2.android.raw.decoder
+[000:071] [2020-12-03 12:33:46 +0000.298587][36de] codec name: audio/vorbis company:c2.android.vorbis.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298630][36de] codec name: video/av01 company:c2.android.av1.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298660][36de] codec name: video/avc company:c2.android.avc.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298688][36de] codec name: video/avc company:OMX.google.h264.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298755][36de] codec name: video/3gpp company:c2.android.h263.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298806][36de] codec name: video/3gpp company:OMX.google.h263.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298837][36de] codec name: video/hevc company:c2.android.hevc.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298888][36de] codec name: video/hevc company:OMX.google.hevc.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298923][36de] codec name: video/mp4v-es company:c2.android.mpeg4.decoder
+[000:072] [2020-12-03 12:33:46 +0000.298958][36de] codec name: video/mp4v-es company:OMX.google.mpeg4.decoder
+[000:072] [2020-12-03 12:33:46 +0000.299002][36de] codec name: video/x-vnd.on2.vp8 company:c2.android.vp8.decoder
+[000:072] [2020-12-03 12:33:46 +0000.299032][36de] codec name: video/x-vnd.on2.vp8 company:OMX.google.vp8.decoder
+[000:072] [2020-1
